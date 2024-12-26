@@ -111,7 +111,7 @@ export const init = (demo) => {
     let question = [
       {
         type: "list",
-        message: "请选择一个前端脚手架：",
+        message: "请选择一个脚手架：",
         name: "cliName",
         default: getList()[0],
         choices: getList(),
@@ -129,7 +129,7 @@ export const init = (demo) => {
         console.log("lfsz", urlList);
         console.log(chalk.yellow("开始拉取代码"));
         urlList.map((item) => {
-          const spinner = ora("拉取:" + item);
+          const spinner = ora("拉取:" + item.url);
           spinner.start();
           download(
             `direct:${item.url}`,
