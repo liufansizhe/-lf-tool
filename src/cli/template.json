@@ -1,0 +1,9 @@
+{
+  "vue2": { "url": "git@github.com:liufansizhe/vue2-cli.git", "type": "front" },
+  "vue3": { "url": "git@github.com:liufansizhe/vue3-cli.git", "type": "front" },
+  "react": {
+    "url": "git@github.com:liufansizhe/react-cli.git",
+    "type": "front"
+  },
+  "node": { "url": "git@github.com:liufansizhe/node-cli.git", "type": "end" }
+}

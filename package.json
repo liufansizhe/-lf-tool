@@ -1,0 +1,24 @@
+{
+  "name": "lf-tool",
+  "version": "0.0.0",
+  "main": "index.js",
+  "bin": {
+    "lf": "bin/lf.js"
+  },
+  "type": "module",
+  "scripts": {},
+  "author": "liufansizhe",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^12.3.0",
+    "log-symbols": "^7.0.0",
+    "ora": "^8.1.1"
+  },
+  "dependencies": {
+    "punycode": "^2.3.1"
+  }
+}
